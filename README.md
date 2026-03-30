@@ -172,17 +172,6 @@ What they cover:
 
 These are sanity checks, not a substitute for a real TTY boot.
 
-## Release Checklist
-
-Before tagging a public release:
-
-1. `make clean && make`
-2. Run all smoke targets that apply to your build.
-3. Boot from a clean TTY.
-4. Confirm terminal spawn, launcher spawn, close, focus, workspace move, fullscreen, and quit.
-5. Confirm behavior with and without D-Bus if you intend to document both.
-6. Confirm X11 clients only if you are shipping an Xwayland-enabled build.
-
 ## Troubleshooting
 
 ### Launcher crashes or does not appear
