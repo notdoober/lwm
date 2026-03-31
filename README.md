@@ -151,6 +151,7 @@ Cursor theming is disabled by default. If you want the compositor to export a cu
 - The default launcher and terminal commands are only defaults. They are not guaranteed to exist on every system.
 - No login-manager files are shipped in-tree.
 - No persistence layer is included. What you build is what you run.
+- This wm is very minimal and requires patching both the `main.c` and `config.h`, this isnt for beginners.
 
 ## Smoke Tests
 
